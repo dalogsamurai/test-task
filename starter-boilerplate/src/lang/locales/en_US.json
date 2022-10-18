@@ -22,6 +22,9 @@
 
   "sidenav.сatalogue": "Catalogue",
   "sidenav.сatalogue.products": "Products",
+  "sidenav.catalogue.categories": "Categories",
+  "sidenav.catalogue.collections": "Collections",
+  "sidenav.catalogue.combo": "Combo",
 
   "sidenav.components": "Components",
   "sidenav.components.general": "General",
