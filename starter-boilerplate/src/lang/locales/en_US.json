@@ -28,6 +28,10 @@
 
   "sidenav.orders": "Orders",
 
+  "sidenav.clients": "Clients",
+  "sidenav.clients.list": "List of clients",
+  "sidenav.clients.groups": "Groups of clients",
+
   "sidenav.components": "Components",
   "sidenav.components.general": "General",
   "sidenav.components.general.button": "Button",

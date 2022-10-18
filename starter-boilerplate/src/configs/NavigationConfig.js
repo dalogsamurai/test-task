@@ -1,5 +1,5 @@
 import {
-  DashboardOutlined, ShoppingOutlined, ShoppingCartOutlined
+  DashboardOutlined, ShoppingOutlined, ShoppingCartOutlined, UserOutlined
 } from '@ant-design/icons';
 import { APP_PREFIX_PATH } from 'configs/AppConfig'
 
@@ -63,6 +63,29 @@ const mainNavTree = [
         icon: ShoppingOutlined,
         breadcrumb: false,
         submenu: []
+      },
+      {
+        key: 'clients',
+        path: `${APP_PREFIX_PATH}/clients`,
+        title: 'sidenav.clients',
+        icon: UserOutlined,
+        breadcrumb: false,
+        submenu: [
+          {
+            key: 'clients-list',
+            path: `${APP_PREFIX_PATH}/clients/list`,
+            title: 'sidenav.clients.list',
+            breadcrumb: false,
+            submenu: []
+          },
+          {
+            key: 'clients-groups',
+            path: `${APP_PREFIX_PATH}/clients/groups`,
+            title: 'sidenav.clients.groups',
+            breadcrumb: false,
+            submenu: []
+          },
+        ]
       }
     ]
   }]
