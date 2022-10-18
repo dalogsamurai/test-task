@@ -75,14 +75,14 @@ const mainNavTree = [
         submenu: [
           {
             key: 'clients-list',
-            path: `${APP_PREFIX_PATH}/clients/list`,
+            path: `${APP_PREFIX_PATH}/client-list`,
             title: 'sidenav.clients.list',
             breadcrumb: false,
             submenu: []
           },
           {
             key: 'clients-groups',
-            path: `${APP_PREFIX_PATH}/clients/groups`,
+            path: `${APP_PREFIX_PATH}/clients-groups`,
             title: 'sidenav.clients.groups',
             breadcrumb: false,
             submenu: []
