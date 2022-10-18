@@ -86,7 +86,25 @@ const mainNavTree = [
             submenu: []
           },
         ]
-      }
+      },
+      {
+        key: 'banners',
+        path: `${APP_PREFIX_PATH}/banners`,
+        title: 'sidenav.banners',
+        //TODO
+        // icon: ShoppingOutlined,
+        breadcrumb: false,
+        submenu: []
+      },
+      {
+        key: 'promocodes',
+        path: `${APP_PREFIX_PATH}/promocodes`,
+        title: 'sidenav.promocodes',
+        //TODO
+        // icon: ShoppingOutlined,
+        breadcrumb: false,
+        submenu: []
+      },
     ]
   }]
 
