@@ -24,7 +24,7 @@ export const Views = (props) => {
             <AuthLayout />
           </Route>
           <Route path={APP_PREFIX_PATH}>
-            <AppLayout location={location}/>
+            <AppLayout location={location} />
           </Route>
         </Switch>
       </ConfigProvider>
@@ -33,7 +33,7 @@ export const Views = (props) => {
 }
 
 const mapStateToProps = ({ theme, auth }) => {
-  const { locale } =  theme;
+  const { locale } = theme;
   const { token } = auth;
   return { locale, token }
 };
