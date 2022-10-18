@@ -15,9 +15,7 @@ const dashBoardNavTree = [{
 const сatalogueNavTree = [{
   key: 'Catalogue',
   path: `${APP_PREFIX_PATH}/сatalogue`,
-  title: 'Catalogue',
-  // title: 'sidenav.apps', 
-  //TODO
+  title: 'sidenav.сatalogue',
   icon: AppstoreOutlined,
   breadcrumb: false,
   submenu: [
