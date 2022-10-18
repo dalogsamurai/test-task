@@ -1,5 +1,5 @@
 import {
-  DashboardOutlined, AppstoreOutlined, MailOutlined, MessageOutlined, CalendarOutlined, BulbOutlined, ShoppingCartOutlined
+  DashboardOutlined, ShoppingOutlined, ShoppingCartOutlined
 } from '@ant-design/icons';
 import { APP_PREFIX_PATH } from 'configs/AppConfig'
 
@@ -55,6 +55,14 @@ const mainNavTree = [
             submenu: []
           },
         ]
+      },
+      {
+        key: 'orders',
+        path: `${APP_PREFIX_PATH}/orders`,
+        title: 'sidenav.orders',
+        icon: ShoppingOutlined,
+        breadcrumb: false,
+        submenu: []
       }
     ]
   }]
