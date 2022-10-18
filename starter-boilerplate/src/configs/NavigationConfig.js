@@ -13,17 +13,17 @@ const dashBoardNavTree = [{
 }]
 
 const сatalogueNavTree = [{
-  key: 'Catalogue',
+  key: 'catalogue',
   path: `${APP_PREFIX_PATH}/сatalogue`,
   title: 'sidenav.сatalogue',
-  icon: AppstoreOutlined,
-  breadcrumb: false,
+  // icon: AppstoreOutlined,
+  icon: ShoppingCartOutlined,
+  breadcrumb: true,
   submenu: [
     {
-      key: 'apps-mail',
-      path: `${APP_PREFIX_PATH}/apps/mail/inbox`,
-      title: 'sidenav.apps.mail',
-      icon: MailOutlined,
+      key: 'catalogue-products',
+      path: `${APP_PREFIX_PATH}/catalogue/products`,
+      title: 'sidenav.сatalogue.products',
       breadcrumb: false,
       submenu: []
     },
