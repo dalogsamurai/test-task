@@ -1,6 +1,6 @@
 import {
   DashboardOutlined, ShoppingOutlined, ShoppingCartOutlined, UserOutlined,
-  GiftOutlined, PictureOutlined
+  GiftOutlined, PictureOutlined, ShopOutlined, MailOutlined, TeamOutlined
 } from '@ant-design/icons';
 import { APP_PREFIX_PATH } from 'configs/AppConfig'
 
@@ -101,6 +101,45 @@ const mainNavTree = [
         path: `${APP_PREFIX_PATH}/promocodes`,
         title: 'sidenav.promocodes',
         icon: GiftOutlined,
+        breadcrumb: false,
+        submenu: []
+      },
+      {
+        key: 'offline-points',
+        path: `${APP_PREFIX_PATH}/offline-points`,
+        title: 'sidenav.offline-points',
+        icon: ShopOutlined,
+        breadcrumb: false,
+        submenu: [
+          {
+            key: 'offline-points-addresses',
+            path: `${APP_PREFIX_PATH}/offline-points/addresses`,
+            title: 'sidenav.offline-points.addresses',
+            breadcrumb: false,
+            submenu: []
+          },
+          {
+            key: 'offline-points-geozones',
+            path: `${APP_PREFIX_PATH}/offline-points/geozones`,
+            title: 'sidenav.offline-points.geozones',
+            breadcrumb: false,
+            submenu: []
+          },
+        ]
+      },
+      {
+        key: 'staff',
+        path: `${APP_PREFIX_PATH}/staff`,
+        title: 'sidenav.staff',
+        icon: TeamOutlined,
+        breadcrumb: false,
+        submenu: []
+      },
+      {
+        key: 'mailing',
+        path: `${APP_PREFIX_PATH}/mailing`,
+        title: 'sidenav.mailing',
+        icon: MailOutlined,
         breadcrumb: false,
         submenu: []
       },

@@ -34,7 +34,14 @@
 
   "sidenav.banners": "Banners",
 
+  "sidenav.offline-points": "Offline points",
+  "sidenav.offline-points.addresses": "Addresses",
+  "sidenav.offline-points.geozones": "Geozones",
+
   "sidenav.promocodes": "Promocodes",
+
+  "sidenav.staff": "Staff",
+  "sidenav.mailing": "Mailing",
 
   "sidenav.components": "Components",
   "sidenav.components.general": "General",
