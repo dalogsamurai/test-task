@@ -1,5 +1,6 @@
 import {
-  DashboardOutlined, ShoppingOutlined, ShoppingCartOutlined, UserOutlined
+  DashboardOutlined, ShoppingOutlined, ShoppingCartOutlined, UserOutlined,
+  GiftOutlined, PictureOutlined
 } from '@ant-design/icons';
 import { APP_PREFIX_PATH } from 'configs/AppConfig'
 
@@ -91,8 +92,7 @@ const mainNavTree = [
         key: 'banners',
         path: `${APP_PREFIX_PATH}/banners`,
         title: 'sidenav.banners',
-        //TODO
-        // icon: ShoppingOutlined,
+        icon: PictureOutlined,
         breadcrumb: false,
         submenu: []
       },
@@ -100,8 +100,7 @@ const mainNavTree = [
         key: 'promocodes',
         path: `${APP_PREFIX_PATH}/promocodes`,
         title: 'sidenav.promocodes',
-        //TODO
-        // icon: ShoppingOutlined,
+        icon: GiftOutlined,
         breadcrumb: false,
         submenu: []
       },
