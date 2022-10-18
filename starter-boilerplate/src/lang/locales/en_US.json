@@ -43,6 +43,10 @@
   "sidenav.staff": "Staff",
   "sidenav.mailing": "Mailing",
 
+  "sidenav.settings": "Settings",
+  "sidenav.mobile-app": "Mobile app",
+  "sidenav.logs": "Logs",
+
   "sidenav.components": "Components",
   "sidenav.components.general": "General",
   "sidenav.components.general.button": "Button",

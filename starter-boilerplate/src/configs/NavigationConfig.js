@@ -1,6 +1,7 @@
 import {
   DashboardOutlined, ShoppingOutlined, ShoppingCartOutlined, UserOutlined,
-  GiftOutlined, PictureOutlined, ShopOutlined, MailOutlined, TeamOutlined
+  GiftOutlined, PictureOutlined, ShopOutlined, MailOutlined, TeamOutlined,
+  MobileOutlined, SettingOutlined, FileTextOutlined
 } from '@ant-design/icons';
 import { APP_PREFIX_PATH } from 'configs/AppConfig'
 
@@ -146,9 +147,44 @@ const mainNavTree = [
     ]
   }]
 
+const systemNavTree = [
+  {
+    key: 'system',
+    path: `${APP_PREFIX_PATH}/system`,
+    title: 'system',
+    breadcrumb: false,
+    submenu: [
+      {
+        key: 'settings',
+        path: `${APP_PREFIX_PATH}/settings`,
+        title: 'sidenav.settings',
+        icon: SettingOutlined,
+        breadcrumb: false,
+        submenu: []
+      },
+      {
+        key: 'mobile-app',
+        path: `${APP_PREFIX_PATH}/mobile-app`,
+        title: 'sidenav.mobile-app',
+        icon: MobileOutlined,
+        breadcrumb: false,
+        submenu: []
+      },
+      {
+        key: 'logs',
+        path: `${APP_PREFIX_PATH}/logs`,
+        title: 'sidenav.logs',
+        icon: FileTextOutlined,
+        breadcrumb: false,
+        submenu: []
+      },
+    ]
+  }]
+
 
 const navigationConfig = [
-  ...mainNavTree
+  ...mainNavTree,
+  ...systemNavTree
 ]
 
 export default navigationConfig;
